@@ -1,0 +1,30 @@
+.container {
+  height: 100vh;
+  font-family: monospace, courier;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: Max(3vw, 12px);
+   background: hsl(0, 20%, 5%);
+}
+
+.drawing {
+  border-radius: 0.5em;
+  background: hsl(0, 20%, 20%);
+  color: hsl(180, 20%, 80%);
+  padding: 0.5rem;
+  width: max(70vw, 300px);
+}
+
+.drawing  div {
+  margin: 1rem;
+}
+
+.title {
+  font-size: 1.8em;  
+}
+
+.description {
+  fonst-size: 1em;  
+}
